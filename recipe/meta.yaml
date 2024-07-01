@@ -11,7 +11,7 @@ source:
   sha256: d8eecb777275939be830428c3bc3f582b4d91e30f4be8f03049714bb23e9e342
 
 build:
-  number: 0
+  number: 1
   script: {{ PYTHON }} setup.py install --single-version-externally-managed --record record.txt
   # medatetime only supports posix platforms so we'll skip building for windows
   skip: true  # [win]
